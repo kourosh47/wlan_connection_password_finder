@@ -4,7 +4,6 @@ from tkinter import filedialog
 
 path=filedialog.askdirectory()
 
-print(path)
 user_wifi=sb.run(['netsh','wlan','show','profiles'],capture_output=True).stdout.decode()
 list_of_wifis=re.findall(r'User Profile     : (.*)\r',user_wifi)
 infos=dict()
