@@ -1,7 +1,7 @@
 # wlan_connection_password_finder
 
 # requirements:
-    pip install tkinter
+    pip install tk
               
     pip install subprocess
   
